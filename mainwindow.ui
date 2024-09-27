@@ -112,14 +112,17 @@
             <item>
              <widget class="QLabel" name="label_4">
               <property name="text">
-               <string>Ширина Окна</string>
+               <string>Кол - во отражений</string>
               </property>
              </widget>
             </item>
             <item>
-             <widget class="QLabel" name="Gr_v_W">
-              <property name="text">
-               <string>TextLabel</string>
+             <widget class="QSpinBox" name="spin_Reflex">
+              <property name="maximum">
+               <number>500</number>
+              </property>
+              <property name="value">
+               <number>150</number>
               </property>
              </widget>
             </item>
@@ -203,6 +206,9 @@
        </layout>
       </item>
      </layout>
+    </item>
+    <item row="0" column="1">
+     <widget class="QTextEdit" name="textEdit"/>
     </item>
    </layout>
   </widget>
